@@ -1,10 +1,5 @@
-import Predictor from "../components/Predictor";
+import ChatDetector from "../components/ChatDetector";
 
 export default function DetectorPage() {
-    return (
-        <div className="page-center">
-            <h1>🤖 Fake News Detector</h1>
-            <Predictor />
-        </div>
-    );
+    return <ChatDetector />;
 }

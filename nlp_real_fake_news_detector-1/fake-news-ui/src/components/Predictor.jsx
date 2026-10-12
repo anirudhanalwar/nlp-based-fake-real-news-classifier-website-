@@ -13,9 +13,12 @@ export default function Predictor() {
         setLoading(true);
 
         try {
-            const res = await axios.post("http://127.0.0.1:5000/predict", {
-                text: text,
-            });
+            let res;
+            try {
+                res = await axios.post("http://127.0.0.1:5001/predict", { text });
+            } catch {
+                res = await axios.post("http://127.0.0.1:5000/predict", { text });
+            }
 
             if (res && res.data) {
                 setResult(res.data);

@@ -7,8 +7,8 @@ export default function Navbar() {
     return (
         <nav className="navbar">
             <Link to="/" className="nav-brand">
-                <div className="nav-logo-icon">📰</div>
-                <span className="nav-brand-name">TruthLens</span>
+                <img src="/truthbot-logo.png" alt="TruthBot" className="nav-logo-img" />
+                <span className="nav-brand-name">TruthBot</span>
             </Link>
 
             <div className="nav-links">
@@ -28,7 +28,7 @@ export default function Navbar() {
 
             <div className="nav-right">
                 <span className="nav-badge">Live</span>
-                <div className="nav-avatar">TL</div>
+                <div className="nav-avatar">TB</div>
             </div>
         </nav>
     );

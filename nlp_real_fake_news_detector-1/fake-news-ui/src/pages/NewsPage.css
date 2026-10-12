@@ -48,13 +48,13 @@
 }
 
 .np-pill:hover {
-    background: rgba(255, 255, 255, 0.08);
+    background: rgba(255, 255, 255, 0.1);
     color: white;
 }
 
 .np-pill.on {
     background: white;
-    color: #0f2027;
+    color: #111111;
     border-color: transparent;
 }
 
@@ -103,33 +103,33 @@
 }
 
 .tag-tech {
-    background: #E6F1FB;
-    color: #0C447C;
+    background: #e0e0e0;
+    color: #111111;
 }
 
 .tag-env {
-    background: #EAF3DE;
-    color: #27500A;
+    background: #d8d8d8;
+    color: #111111;
 }
 
 .tag-biz {
-    background: #FAEEDA;
-    color: #633806;
+    background: #e8e8e8;
+    color: #111111;
 }
 
 .tag-health {
-    background: #EEEDFE;
-    color: #3C3489;
+    background: #cfcfcf;
+    color: #111111;
 }
 
 .tag-world {
-    background: #FAECE7;
-    color: #712B13;
+    background: #c8c8c8;
+    color: #111111;
 }
 
 .tag-sci {
-    background: #E1F5EE;
-    color: #085041;
+    background: #d4d4d4;
+    color: #111111;
 }
 
 .np-time {
